@@ -1,0 +1,96 @@
+/* Login.css */
+
+.login-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px; /* Adjust margin-left as needed */
+  align-items: left; /* This property is not valid in flex container */
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  /* Remove border-radius */
+  width: 400px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  background-color: #fbff0d;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Use clip-path for edged curves */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 90% 100%, 10% 100%, 0% 80%);
+}
+
+.login-title {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px 0;
+  color: #333;
+  text-align: left; /* Aligning the text to the left */
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.login-button {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.login-button:focus {
+  outline: none;
+}
+
+/* Style for the outer div */
+.div-container {
+  display: flex;
+  justify-content: left; /* Aligning content to the left */
+  align-items: left; /* Aligning items to the left */
+  background-color: #000; /* Black background */
+  color: #fff; /* White font color */
+}
+
+/* Style for the section2 class */
+
+/* Style for the app-icons class */
+.app-icons {
+  background-color: #222; /* Darker shade of black */
+  padding: 5px;
+}
+
+/* Style for the copy-info class */
+.copy-info {
+  text-align: left; /* Aligning text to the left */
+}
+
+/* Style for the version class */
+.version {
+  font-size: 16px;
+}
+
+/* Style for the last class */
+.last {
+  font-size: 14px;
+}
+
+/* Style for the copyright class */
+.copyright {
+  font-size: 12px;
+}
